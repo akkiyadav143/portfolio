@@ -1,7 +1,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import threads from "../assets/images/threads.png";
+import uber from "../assets/images/uber-clone.png";
 import ecom from "../assets/images/ecom.png";
 
 import htmlIcon from "../assets/icon/html.svg";
@@ -17,24 +17,28 @@ import gitIcon from "../assets/icon/git.svg";
 import wwwIcon from "../assets/icon/www.svg";
 import githubIcon from "../assets/icon/github.svg";
 import clerkIcon from "../assets/icon/clerk.svg";
+import Stripe from "../assets/icon/Stripe.svg";
+import GoogleMap from "../assets/icon/google_maps.svg";
 
 const projects = [
-  // {
-  //   title: "Threads-clone",
-  //   image: threads,
-  //   description:
-  //     "Threads Clone is a project that aims to replicate the core functionalities and features of the popular communication and messaging app called 'Threads.' Similar to the original Threads app, the clone project likely focuses on providing users with a platform for private and close-circle communication.",
-  //   technology: [
-  //     "Nextjs",
-  //     "TypeScript",
-  //     "Tailwind",
-  //     "Redux",
-  //     "MongoDB",
-  //     "Clerk",
-  //   ],
-  //   githubLink: "https://github.com/akkiyadav143/threads",
-  //   demoLink: "https://threads-akkiyadav143.vercel.app/",
-  // },
+  {
+    title: "Uber-clone",
+    image: uber,
+    description:
+      "This project is an Uber clone web app built with Next.js, Tailwind CSS, Clerk for authentication, Stripe for payments, Google Maps API for maps, and Material UI for UI components. It provides a foundation for building a ride-sharing platform.",
+    technology: [
+      "Nextjs",
+      "TypeScript",
+      "Tailwind",
+      "Redux",
+      "MongoDB",
+      "Clerk",
+      "Stripe",
+      "GoogleMap",
+    ],
+    githubLink: "https://github.com/akkiyadav143/uber-cloneapp",
+    demoLink: "https://uber-cloneapp.vercel.app/",
+  },
   {
     title: "Ecommerce",
     image: ecom,
@@ -58,6 +62,8 @@ const technologyIcons = {
   MongoDB: mongoDBIcon,
   Git: gitIcon,
   Clerk: clerkIcon,
+  Stripe: Stripe,
+  GoogleMap: GoogleMap,
 };
 
 const Portfolio = ({ id }) => {
@@ -115,19 +121,6 @@ const Portfolio = ({ id }) => {
                     </div>
                   </div>
                   <div className="flex justify-between">
-                    <a
-                      href={project.githubLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center px-4 py-2 bg-blue-500 text-white rounded-xl hover:bg-blue-700 transition-colors duration-300"
-                    >
-                      <span className="mr-2">Code</span>
-                      <img
-                        src={githubIcon}
-                        alt="GitHub Icon"
-                        className="w-6 h-6 inline-block"
-                      />
-                    </a>
                     <a
                       href={project.demoLink}
                       target="_blank"
