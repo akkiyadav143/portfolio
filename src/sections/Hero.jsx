@@ -19,7 +19,7 @@ const Hero = ({ id }) => {
           Full Stack Developer{" "}
         </h2>
         <p className="mt-4 lg:max-w-lg info-text text-lg mb-4 info-text font-medium text-gray-500">
-          Hi, I&apos;m Akhilesh Yadav. A passionate Full Stack Developer with 8
+          Hi, I&apos;m Akhilesh Yadav. A passionate Full Stack Developer with 9
           years of professional experience in Web Designing,Development and User
           Interface Development. Proficiency in code optimization to improve
           performance.
