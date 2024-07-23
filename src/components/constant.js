@@ -13,7 +13,7 @@ export const experiences = [
     date: "March’ 24 - Present",
     points: [
      "Deep expertise in CodePipeline, Elastic Beanstalk, and Nginx configuration for seamless deployment and infrastructure management.",
-"Expert-level proficiency in server-side development, asynchronous programming, and event-driven architecture."
+"Expert-level proficiency in server-side development, asynchronous programming, and event-driven architecture.",
 "Proven track record in implementing robust security measures (XSS, X-Frame-Options, Permissions-Policy, Referrer-Policy) and Proficient in data encryption/decryption using AES-256-CTR with HMAC and salt. Strong experience integrating third-party services (SMS, email).",
     ],
   },
