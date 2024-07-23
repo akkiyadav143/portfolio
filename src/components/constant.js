@@ -1,4 +1,4 @@
-import here from "../assets/icon/here.svg";
+import cognizant from "../assets/icon/cognizant.svg";
 import Lti from "../assets/icon/Lti.svg";
 import nm from "../assets/icon/siet.png";
 import srmv from "../assets/icon/srmv.svg";
@@ -6,11 +6,23 @@ import tp from "../assets/icon/ryan.png";
 
 export const experiences = [
   {
+     title: "Sr. Software Engineer",
+    company_name: "Cognizant",
+    icon: cognizant,
+    iconBg: "#E6DEDD",
+    date: "March’ 24 - Present",
+    points: [
+     "Deep expertise in CodePipeline, Elastic Beanstalk, and Nginx configuration for seamless deployment and infrastructure management.",
+"Expert-level proficiency in server-side development, asynchronous programming, and event-driven architecture."
+"Proven track record in implementing robust security measures (XSS, X-Frame-Options, Permissions-Policy, Referrer-Policy) and Proficient in data encryption/decryption using AES-256-CTR with HMAC and salt. Strong experience integrating third-party services (SMS, email).",
+    ],
+  },
+  {
     title: "Lead Software Engineer",
     company_name: "Innowrap Technologies",
     icon: here,
     iconBg: "#d1d5db",
-    date: "Oct 2018 - Present",
+    date: "Oct 2018 - March’ 24",
     points: [
       "Architected front-end functionality for e-commerce sites; integrated dynamic payment gateways and increased checkout conversion rates by 25%.",
       "Developed and maintained web applications using React.js and Redux for efficient state management",
