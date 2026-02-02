@@ -2,11 +2,11 @@ import meImage from "../assets/images/me.jpg";
 import { BiSolidDownload } from "react-icons/bi";
 
 const Hero = ({ id }) => {
-  const resumeLink = "./Frontend_developer.pdf";
+  const resumeLink = "./Full_Stack_Engineer.pdf";
   const handleDownloadResume = () => {
     const link = document.createElement("a");
     link.href = resumeLink;
-    link.download = "Frontend_developer.pdf";
+    link.download = "Full_Stack_Engineer.pdf";
     link.click();
   };
   return (
@@ -16,13 +16,19 @@ const Hero = ({ id }) => {
     >
       <div className="flex flex-1 flex-col">
         <h2 className="font-poppins capitalize text-4xl lg:max-w-lg font-bold text-gray-700">
-          Full Stack Developer{" "}
+          Senior Full-Stack Engineer{" "}
         </h2>
         <p className="mt-4 lg:max-w-lg info-text text-lg mb-4 info-text font-medium text-gray-500">
-          Hi, I&apos;m Akhilesh Yadav. A passionate Full Stack Developer with 9
-          years of professional experience in Web Designing,Development and User
-          Interface Development. Proficiency in code optimization to improve
-          performance.
+          Hi, I&apos;m Akhilesh Yadav. A passionate Senior Full-Stack Engineer
+          with 9.5+ years of experience building scalable, high-performance web
+          applications using React.js, Node.js, NestJS, TypeScript, and
+          PostgreSQL. Proven expertise in REST APIs, cloud deployments on AWS,
+          and performance optimization. Strong background in leading
+          cross-functional teams, delivering enterprise solutions across fintech
+          and e-commerce domains, and implementing secure, production-ready
+          architectures. Adept in Agile environments with a consistent track
+          record of improving user experience, system reliability, and
+          development efficiency.
         </p>
 
         <div className="mt-11">

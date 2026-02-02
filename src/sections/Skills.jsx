@@ -13,6 +13,15 @@ import aws from "../assets/icon/aws.svg";
 import mysql from "../assets/icon/mysql.svg";
 import php from "../assets/icon/php.svg";
 import node from "../assets/icon/node.svg";
+import nestJS from "../assets/icon/nestjs.svg";
+import swagger from "../assets/icon/swagger.svg";
+import bitbucktet from "../assets/icon/bitbucket.svg";
+import jest from "../assets/icon/jest.svg";
+import pg from "../assets/icon/pg.svg";
+import salesforce from "../assets/icon/salesforce.svg";
+import workday from "../assets/icon/workday.svg";
+import jira from "../assets/icon/jira.svg";
+import prisma from "../assets/icon/prisma.svg";
 
 const Skills = () => {
   const icons = [
@@ -23,14 +32,23 @@ const Skills = () => {
     { name: "TypeScript", src: ts },
     { name: "React", src: react },
     { name: "Next.js", src: nextjs },
+    { name: "Nest.js", src: nestJS },
     { name: "Node.js", src: node },
     { name: "Php", src: php },
     { name: "Redux", src: redux },
     { name: "MongoDB", src: mongoDB },
     { name: "MySql", src: mysql },
+    { name: "PostgreSQL", src: pg },
+    { name: "Prisma", src: prisma },
     { name: "Aws", src: aws },
     { name: "Docker", src: docker },
     { name: "Git", src: git },
+    { name: "Bitbucket", src: bitbucktet },
+    { name: "Swagger", src: swagger },
+    { name: "Jest", src: jest },
+    { name: "Salesforce", src: salesforce },
+    { name: "Workday", src: workday },
+    { name: "Jira", src: jira },
   ];
 
   return (
