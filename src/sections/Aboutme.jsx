@@ -15,7 +15,7 @@ const Aboutme = ({ id }) => {
           </div>
           <div className="w-full md:w-1/2 text-left">
             <div className="lg:max-w-lg info-text">
-              👋 Hey there! I&apos;m Akhilesh Yadav, a passionate Senior
+              👋 Hey there! I&apos;m Akhilesh Yadav, a passionate Lead
               Full-Stack Engineer with 9.5+ years of experience crafting
               scalable, high-performance web applications.
               <div className="mt-1 lg:max-w-lg info-text">

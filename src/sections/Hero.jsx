@@ -19,17 +19,17 @@ const Hero = ({ id }) => {
           Senior Full-Stack Engineer{" "}
         </h2>
         <p className="mt-4 lg:max-w-lg info-text text-lg mb-4 info-text font-medium text-gray-500">
-          Hi, I&apos;m Akhilesh Yadav. A passionate Senior Full-Stack Engineer
+          Hi, I&apos;m Akhilesh Yadav. A passionate Lead Full Stack Engineer
           with 9.5+ years of experience building scalable, high-performance web
-          applications using React.js, Node.js, NestJS, TypeScript, and
-          PostgreSQL. Proven expertise in REST APIs, Micro Frontend (MFE)
-          architectures,Backend-for-Frontend (BFF) patterns, cloud deployments
-          on AWS, and performance optimization. Strong background in leading
-          cross-functional teams, delivering enterprise solutions across fintech
-          and e-commerce domains, and implementing secure, production-ready
-          architectures. Adept in Agile environments with a consistent track
-          record of improving user experience, system reliability, and
-          development efficiency.
+          applications using React.js, Node.js, NestJS, Express.js, TypeScript,
+          PostgreSQL, and MongoDB. Experienced in Micro Frontend (MFE)
+          architectures and Backend-for-Frontend (BFF) patterns to deliver
+          modular and scalable enterprise solutions. Proven track record of
+          leading cross-functional teams of 5+ developers, designing secure REST
+          APIs, and deploying cloud-native applications on AWS with CI/CD
+          pipelines. Strong expertise in microservices architecture, system
+          design, performance optimization, and fintech/e-commerce platforms,
+          delivering reliable and production-ready systems.
         </p>
 
         <div className="mt-11">
