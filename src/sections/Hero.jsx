@@ -16,7 +16,7 @@ const Hero = ({ id }) => {
     >
       <div className="flex flex-1 flex-col">
         <h2 className="font-poppins capitalize text-4xl lg:max-w-lg font-bold text-gray-700">
-          Senior Full-Stack Engineer{" "}
+          Lead Full-Stack Engineer{" "}
         </h2>
         <p className="mt-4 lg:max-w-lg info-text text-lg mb-4 info-text font-medium text-gray-500">
           Hi, I&apos;m Akhilesh Yadav. A passionate Lead Full Stack Engineer
