@@ -22,8 +22,9 @@ const Hero = ({ id }) => {
           Hi, I&apos;m Akhilesh Yadav. A passionate Senior Full-Stack Engineer
           with 9.5+ years of experience building scalable, high-performance web
           applications using React.js, Node.js, NestJS, TypeScript, and
-          PostgreSQL. Proven expertise in REST APIs, cloud deployments on AWS,
-          and performance optimization. Strong background in leading
+          PostgreSQL. Proven expertise in REST APIs, Micro Frontend (MFE)
+          architectures,Backend-for-Frontend (BFF) patterns, cloud deployments
+          on AWS, and performance optimization. Strong background in leading
           cross-functional teams, delivering enterprise solutions across fintech
           and e-commerce domains, and implementing secure, production-ready
           architectures. Adept in Agile environments with a consistent track
