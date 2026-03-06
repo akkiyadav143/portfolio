@@ -25,6 +25,8 @@ export const experiences = [
       "Participated in Agile ceremonies and peer code reviews, improving code quality and delivery velocity.",
       "Enforced unit and integration testing using Jest and React Testing Library to improve release stability.",
       "Containerized Node.js and NestJS services using Docker, improving deployment consistency across environments.",
+      "Designed Backend-for-Frontend (BFF) APIs using NestJS and Node.js to optimize data aggregation and reduce frontend API calls.",
+      "Implemented Micro Frontend (MFE) architecture using React to enable independent deployment of frontend modules and improve scalability across teams.",
     ],
   },
   {
